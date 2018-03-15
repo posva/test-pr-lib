@@ -2,5 +2,8 @@
   "name": "@posva/test-pr-lib",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "license": "MIT"
 }
