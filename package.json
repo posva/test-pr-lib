@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "release": "npm version patch && npm publish --access public",
-    "release:canary": "npm version patch && npm publish --tag canary --access public --"
+    "release:canary": "npm version prepatch && npm publish --tag canary --access public"
   },
   "license": "MIT"
 }
